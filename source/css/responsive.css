@@ -1,4 +1,113 @@
-@media screen and (max-width:1290px){} /*@media End*/
-@media screen and (max-width:1023px){} /*@media End*/
-@media screen and (max-width:767px){} /*@media End*/
-@media screen and (max-width:480px){} /*@media End*/
+@media screen and (max-width:1290px){
+  /* 상단 */
+  .nt-cm_top .nt-logo {left: 3vw;}
+  .nt-cm_cont .nt-txt1 {font-size: 3rem;}
+  .nt-cm_cont .nt-txt2 {font-size: 1.125rem;}
+  .nt-cm_cont .nt-refer-list {padding: 0 15px; height: 55px; line-height: 55px;}
+  .nt-cm_cont .nt-refer-list.nt-list3 {background-position: center right 15px;}
+
+  .nt-cont_sec-goals-txt {font-size: 1.125rem;}
+
+  .nt-potential .nt-cont_sec_dt {flex-direction: column;}
+  .nt-potential_lt, .nt-potential_rt {width: 100%;}
+  .nt-potential_ul {flex-wrap: wrap; flex-direction: row;}
+  .nt-potential_li--info {width: calc(50% - 7.5px);}
+  .nt-potential_li--text {width: 100%;}
+
+  .nt-strategy-diagram {padding: clamp(20px, 4vw, 55px);}
+  .nt-strategy-md .nt-strategy-smbox::after, .nt-strategy-md .nt-strategy-smbox::before {display: none;}
+  .nt-strategy-logo-ul {gap: 8px;}
+  .nt-strategy-logo-li {width: calc(50% - 4px);}
+} /*@media End*/
+
+@media screen and (max-width:1023px){
+  /* 상단 */
+  .nt-cm_cont .nt-refer-list {width: min(70%, 500px);}
+  .nt-tab_in {gap: 1.5vw;}
+  .nt-tab-btn {width: calc(94vw / 3 - 1vw); height: 50px; font-size: 1.125rem;}
+
+  .nt-potential_box {height: auto;}
+  .nt-potential_info-2 {font-size: 1.125rem;}
+  .nt-potential_info-2 b {font-size: 1.25rem;}
+  .nt-potential_li--info .nt-potential_box {padding: 13px;}
+
+  .nt-challenge_lt {width: 50%;}
+  .nt-challenge_rt {width: calc(50% - 20px);}
+  .nt-challenge .nt-cont_sec_dt {gap: 20px;}
+  .nt-challenge_pnavi-txt {min-height: 75px; font-size: 1rem;}
+
+  .nt-strategy-lt, .nt-strategy-rt {width: 37.5%;}
+  .nt-strategy-md {width: 25%;}
+  .nt-strategy-logo-ul {flex-direction: column; max-width: 200px; margin: auto;}
+  .nt-strategy-logo-li {width: 100%; height: 70px;}
+  .nt-strategy-diagram-mark {width: clamp(135px, 18vw, 160px); height: clamp(135px, 18vw, 160px);}
+  .nt-strategy-diagram-mark_in img {width: clamp(40px, 7vw, 60px);}
+  .nt-strategy-diagram-mark_in {font-size: 1.125rem;}
+  /* .nt-strategy-diagram-mark {width: 120px; height: 120px;}
+  .nt-strategy-diagram-mark_in {font-size: 1rem;}
+  .nt-strategy-diagram-mark_in img {width: 40px;} */
+  .nt-strategy-smbox {max-width: 200px; margin: auto; font-size: 1rem;}
+  /* .nt-strategy-diagram-tit {width: 350px; height: 50px;}
+  .nt-strategy-diagram-tit p {font-size: 1.125rem;} */
+  .nt-strategy-diagram > * {padding-top: 95px;}
+  /* .nt-strategy-rt::after {top: 112px;} */
+  
+} /*@media End*/
+
+@media screen and (max-width:767px){
+  /* 상단 */
+  .nt-cm_cont .nt-txt1 {font-size: 2.25rem;}
+  .nt-cm_cont .nt-txt2 {font-size: 1rem;}
+
+  .nt-potential_li {gap: 10px;}
+  .nt-potential_li--info {width: 100%;}
+  .nt-potential_txt {font-size: 1rem;}
+
+  .nt-challenge .nt-cont_sec_dt {flex-direction: column;}
+  .nt-challenge_lt, .nt-challenge_rt {width: 100%;}
+  .nt-challenge_pnavi-slider {height: 300px;}
+  .nt-challenge_pnavi-txt {min-height: 65px;}
+
+  .nt-strategy-diagram {flex-direction: column;}
+  .nt-strategy-lt::after, .nt-strategy-rt::after {display: none;}
+  .nt-strategy-diagram > * {padding-top: 0;}
+  .nt-strategy-lt, .nt-strategy-rt, .nt-strategy-md {width: 100%;}
+  .nt-strategy-md {gap: 40px; padding: 20px 0;}
+  .nt-strategy-md > * {position: relative;}
+  .nt-strategy-logo-ul, .nt-strategy-smbox {max-width: 100%;}
+  .nt-strategy-logo-ul {flex-direction: row;}
+  .nt-strategy-logo-li {width: calc(50% - 4px);}
+  .nt-strategy-diagram-mark {top: 0; background: linear-gradient(135deg, #d30b14 15%, #0b3f8d 75%);}
+  .nt-strategy-md .nt-strategy-smbox {left: 0; bottom: 0; transform: translate(0); width: min(100%, 300px);}
+  .nt-strategy-smbox br {display: none;}
+  .nt-strategy-diagram-tit {transform: translate(0); left: 0; width: min(100%, 300px); background-image: linear-gradient(#fff, #fff), linear-gradient(to bottom, #d30b14 25%, #0b3f8d 60%);}
+  .nt-strategy-diagram-tit p {font-size: 1.125rem; background: linear-gradient(to bottom, #d30b14 25%, #0b3f8d 60%); -webkit-background-clip: text;}
+  .nt-strategy-biglogo {width: clamp(120px, 50vw, 180px); height: auto;}
+
+} /*@media End*/
+
+@media screen and (max-width:480px){
+  html, body {font-size: 14px;}
+  /* 상단 */
+  .nt-tab_in {flex-direction: column;}
+  .nt-cm_cont .nt-refer-list {width: min(100%, 260px); height: 40px; line-height: 40px;}
+  .nt-cm_cont .nt-refer-list.nt-list3 {background-size: 19px;}
+  .nt-tab-btn, .nt-tab-btn.act {padding: 10px; width: 100%; height: auto; line-height: normal; border-radius: 0.25rem;}
+
+  .nt-cont_sec-goals-txt b {display: block;}
+  .nt-cont_sec-goals-txt b:not(:last-child) {padding-bottom: 4px;}
+  .nt-cont_sec-goals-txt br {display: none;}
+
+  .nt-potential_ul, .nt-potential_li {gap: 2vw;}
+  .nt-potential_icon {width: 45px; height: 45px;}
+  .nt-potential_num {width: 35px; height: 35px; font-size: 1rem;}
+
+  .nt-challenge_pnavi-symbol {width: 40px; height: 40px; line-height: 37px; margin-right: 10px;}
+  .nt-challenge_pnavi-slider:after {left: 17px; top: 25px;}
+  .nt-challenge_pnavi-symbol span {font-size: 1rem;}
+  .nt-challenge_pnavi-txt {width: calc(100% - 50px);}
+
+  .nt-strategy-md .nt-strategy-smbox, .nt-strategy-diagram-tit {width: 100%;}
+  .nt-strategy-logo-li, .nt-strategy-smbox, .nt-strategy-diagram-tit {height: clamp(45px, 12.5vw, 60px);}
+
+} /*@media End*/
