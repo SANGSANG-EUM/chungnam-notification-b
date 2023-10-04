@@ -38,7 +38,7 @@ body {background-color: #f8f8f8;}
 
 .nt-tab {margin: clamp(20px, 6vw, 50px) auto clamp(40px, 6vw, 70px);}
 .nt-tab_in {display: flex; flex-flow: row wrap; justify-content: center; gap: 10px 20px;}
-.nt-tab-btn {display: flex; align-items: center; justify-content: center; width: 250px; height: 60px; line-height: 60px; border-radius: 30px; font-size: 20px; font-weight: 700; color: #fff; text-align: center; background: #d3d3d3;}
+.nt-tab-btn {display: flex; align-items: center; justify-content: center; width: 250px; height: 60px; line-height: 60px; border-radius: 30px; font-size: 20px; font-weight: 700; color: #fff; text-align: center; background: #d3d3d3; transition: .2s;}
 .nt-tab-btn.act {line-height: 58px; border: 2px solid var(--main-color); background: #fff; color: var(--main-color); box-shadow: 0 0 10px rgba(0,0,0,0.1);}
 
 .nt-cont_sec_top {margin-bottom: clamp(17.5px, 4vw, 35px); text-align: center;}
@@ -224,3 +224,4 @@ body {background-color: #f8f8f8;}
 .nt-cm_cont .nt-refer-list:hover {box-shadow: 0 0 10px 5px rgba(0,0,0,.05);}
 .nt-cm_cont .nt-refer-list:hover .name {display: none;}
 .nt-cm_cont .nt-refer-list:hover .nt-refer-over-ul {left: 0;}
+.nt-tab-btn:not(.act):hover {background-color: #999; border-color: #999;}
