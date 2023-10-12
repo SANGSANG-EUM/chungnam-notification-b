@@ -19,7 +19,6 @@ body {background-color: #f8f8f8;}
 .nt-cm_top {overflow: hidden; position: relative; height: 500px; background: url('/source/img/top_bg.jpg') no-repeat center/cover;}
 .nt-cm_cont {position: absolute; bottom: 70px; left: 0; z-index: 9; width: 100%;}
 .nt-cm_cont .nt-wrapper {position: relative;}
-.nt-cm_cont .nt-object {display: block; position: absolute; top: -75px; right: 0; z-index: 10; width: 238px; height: 229px; background: url('/source/img/top_bg-object.png') no-repeat center/contain;}
 .nt-cm_cont .nt-txt1 {font-size: 70px; font-weight: 700; color: #fff; line-height: 1.2;}
 .nt-cm_cont .nt-txt1  span {color: var(--main-color);}
 .nt-cm_cont .nt-txt2 {margin-top: 14px; font-size: 22px; font-weight: 400; color: #fff; line-height: 1.45;}
@@ -87,7 +86,7 @@ body {background-color: #f8f8f8;}
 .nt-challenge_pnavi-symbol.symbol2 {border-radius: 50%;}
 .nt-challenge_pnavi-symbol.symbol2 span {}
 .nt-challenge_pnavi-txt {display: flex; align-items: center; position: relative; width: calc(100% - 63px); min-height: 80px; padding: 13px 10px 13px 18px; border: 1px solid #eaeaea; border-radius: 10px; font-size: 18px; font-weight: 400; color: #333; line-height: 1.45; background: #fff;}
-.nt-challenge_pnavi-txt:after {content: ""; display: none; position: absolute; top: 50%; right: -12px; z-index: 1; width: 19px; height: 20px; margin-top: -10px; background: url('/source/img/challenge-pnavi-arrow.png') no-repeat center/contain;}
+.nt-challenge_pnavi-txt:after {content: ""; display: none; position: absolute; top: 50%; right: -12px; z-index: 1; width: 19px; height: 20px; margin-top: -10px;}
 .nt-challenge_pnavi-txt b {font-weight: 600;}
 
 .nt-challenge_pnavi-list.swiper-slide-active .nt-challenge_pnavi-symbol {border-color: var(--main-color); background: #fff; box-shadow: 0 0 10px rgba(0,0,0,0.15);}
